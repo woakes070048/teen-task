@@ -29,5 +29,7 @@ namespace TeenTasks.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<TeenTasks.Models.Profile> Profiles { get; set; }
     }
 }
